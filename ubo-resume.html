@@ -5,10 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>CV Herman Tatani</title>
-    <meta name="description" content="A propos de moi">
-    <meta name="keywords" content="web,developer,resume" />
-    <meta name="author" content="Mon nom">
+    <meta name="description" content="Developpeur, analyste de donnees, ingenieur DevOps">
+    <meta name="keywords" content="web,developer,resume,DevOps,Data" />
+    <meta name="author" content="Herman TATANI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css">
+    <script src="http://use.edgefonts.net/overlock-sc.js"></script>
+    <script src="http://use.edgefonts.net/source-code-pro.js"></script>
+    <script src="https://kit.fontawesome.com/d8a05687c6.js" crossorigin="anonymous"></script>
     <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 </head>
@@ -19,11 +24,12 @@
             <div class="information">
                 <h1>Herman Tatani</h1>
                 <h2>Ingenieur DevOps</h2>
-                <p>Né le 04 mai 2000 <br />
-                    Camerounais<br />
-                    tatani.herman@gmail.com<br />
-                    www.linkedin.com/in/herman-tatani<br/>
-                    www.github.com/Tatani-Herman</p>
+                <p><i class="fas fa-birthday-cake"></i> &nbsp; Né le 04 mai 2000 <br />
+                    <i class="fas fa-flag"></i> &nbsp; Camerounais<br />
+                    <i class="fas fa-map-marker-alt"></i> &nbsp; 2 rue des Archives <br/>
+                    <i class="fas fa-envelope"></i> &nbsp; tatani.herman@gmail.com<br />
+                    <i class="fab fa-linkedin-in"></i> &nbsp; www.linkedin.com/in/herman-tatani<br/>
+                    <i class="fab fa-github"></i> &nbsp; www.github.com/Tatani-Herman</p>
             </div>
             <div class="image">
               <img src="./photo.jpg" alt="Photo CV Herman"/>
@@ -46,14 +52,14 @@
         <section class="section">
             <!-- formations-->
            <h2>FORMATIONS</h2>
-            <div class="left-side">
+            <div class="left-side" id="left-formation">
              <p>2021-2022</p>
              <p>2017-2022</p>
              <p>2016-2017</p>
             </div>
 
             <div class="right-side">
-                 <p><span class = "title">Universite de Bretagne Occidentale - UFR sciences et techniques</span><br/>
+                 <p><span class = "title">Universite de Bretagne Occidentale</span><br/>
                 Master 2 en developpement logiciel des systemes d'information</p>
                 <p><span class = "title">Ecole Nationale des Sciences Appliquees de Tanger, Maroc</span><br/>
                     Ingenieur d'Etat en informatique </p>
@@ -66,17 +72,17 @@
             <!-- expérience-->
             <h2>EXPERIENCES PROFESSIONNELLES</h2>
             <div class="left-side">
-            <p>2021-2021<br/><span class="time">(3 mois)</span></p>
-            <p>2020-2021<br/><span class="time">(11 mois)</span></p>
+            <p>2021-2021<br/><span class="time">(3 mois)</span></p><br/>
+            <p>2020-2021<br/><span class="time">(11 mois)</span></p><br/><br/>
             <p>2020-2020<br/><span class="time">(3 mois)</span></p>
             </div>
-            
+        
             <div class="right-side">
                 <article><p><span class="title">Stagiaire - Developpeur Fullstack java</span><br/>
                     <b>Interconnect Market - Tanger, Maroc</b><br/>
                       Maintenance de l’application cross-platform d’une entreprise
                         et ajout de nouvelles fonctionnalités. <br />
-                        <b> Outils : JAVA FX, GLUON, MYSQL, XML</b></p>
+                        <i class="icon-camera-retro">Outils : JAVA FX, GLUON, MYSQL, XML</i></p>
                 </article>
                 <article><p><span class="title">Consultant Power BI freelance</span><br/>
                     <b>Interconnect Market - Tanger, Maroc</b><br/>
@@ -84,7 +90,7 @@
                         d’une entreprise belge de façon à obtenir des indicateurs de
                         performance clés permettant de stimuler sa croissance et
                         d’aiguiller sa stratégie. <br />
-                        <b> Outils: MS POWER BI, DAX, M, MYSQL, EXCEL</b></p>
+                        <i class="icon-camera-retro">Outils: MS POWER BI, DAX, M, MYSQL, EXCEL</i></p>
                 </article>
                 <article><p><span class="title">Stagiaire - Developpeur web</span><br/>
                     <b>YOUPEL - Tanger, Maroc</b><br/>
@@ -92,7 +98,7 @@
                         Vtiger ainsi que son portail client sur des serveurs web,
                         Migration de domaines et de boites mail,
                         Livraison du produit fini au PMO de l’entreprise cliente<br />
-                        <b> Outils: PHP7, HTML5, CSS3, web server</b></p>
+                        <i class="icon-camera-retro"> Outils: PHP7, HTML5, CSS3, web server</i></p>
                 </article>
             </div>
         </section>
@@ -122,7 +128,7 @@
                 Espagnol: <br/></p>
             </div>
 
-            <div class="right-side">
+            <div class="right-side" id="right-lang">
               <p>Natif<br/>
                Courant<br/>
                Debutant</p>
@@ -133,23 +139,24 @@
             <!-- Hobbies-->
             <h2>HOBBIES</h2>
             <div class="left-side">
-               <p>Sport : </p>
-               <p>Jeux :</p>
-               <p>Technologie :</p>
+               <p>Sport:<br/>
+                  Jeux:<br/>
+               Technologie:</p>
             </div>
 
-            <div class="right-side">
-              <p>HandBall, FootBall, BasketBall, Tenis</p>
-              <p>Echecs, Jeux video, Rubix cube</p>
-              <p>Internet Of Thnigs(IOT), Intelligence artificielle</p>
+            <div class="right-side" id="right-hobbies">
+              <p>HandBall, FootBall, BasketBall, Tenis<br/>
+              Echecs, Jeux video, Rubix cube<br/>
+              Internet Of Thnigs(IOT), Intelligence artificielle</p>
             </div>
         </section>
 
         <footer>
             <p>Merci de bien vouloir me contacter si mon profil vous interesse <br/>
-            <a href="https://www.facebook.com/herman.tatan">Facebook</a>
-            <a href="https://www.linkedin.com/in/herman-tatani/">Linkedin</a>
-            <a href="https://github.com/Tatani-Herman">GitHub</a></p>
+            <a href="https://www.facebook.com/herman.tatan" target="_blanck"><i class="fab fa-facebook"></i></a> &nbsp; &nbsp;
+            <a href="https://www.linkedin.com/in/herman-tatani/" target="_blanck"><i class="fab fa-linkedin-in"></i></a> &nbsp; &nbsp;
+            <a href="https://github.com/Tatani-Herman" target="_blanck"><i class="fab fa-github"></i></a> &nbsp; &nbsp;
+            <a href="http://yangsolutions.c1.biz/" target="_blanck"><i class="fas fa-globe"></i></a></p>
             
         </footer>
     </div>
