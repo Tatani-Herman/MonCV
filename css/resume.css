@@ -3,7 +3,7 @@ html, button, input, select, textarea {
     }
     
     html { 
-        background-color: #777;
+        background-color: /*#777*/#FFFAFA;
         font-size: 1em; 
         line-height: 1.4; 
         font-family: source-code-pro, serif;
@@ -19,8 +19,10 @@ html, button, input, select, textarea {
         border-radius: 10px;
         box-shadow: 2px 3px 4px black;
         padding: 20px;
+        background-color: #777;
     }
     .image {
+        float: right;
         border: 1px solid #ccc;
         border-radius: 3px;
         background-color: white;
@@ -41,9 +43,7 @@ html, button, input, select, textarea {
     border-bottom: none;
     color: #d6eaf8 ;
 }
-.image {
-    float: right;
-}
+
 .section {
     margin-bottom: 70px;
     text-align: justify;
@@ -53,9 +53,16 @@ html, button, input, select, textarea {
     font-weight: bold;
     font-size: 20px;
 }
+.date {
+    font-weight: bold;
+    font-size: 15px;
+}
 .right-side {
     margin-left: 150px;
     margin-top: 37px;
+}
+article{
+    margin-bottom: 37px;
 }
 
 h2 {
@@ -71,19 +78,10 @@ h2 {
 }
 .title {
     font-weight: bold;
-    font-size: 20px;
-}
-
-#left-formation p {
-    margin-bottom: 37px;
+    font-size: 21px;
 }
 
 #right-lang {
-    line-height: 30px;
-    margin-top: 40.5px;
-}
-
-#right-hobbies {
     line-height: 30px;
     margin-top: 40.5px;
 }
@@ -106,3 +104,8 @@ footer a {
     font-size: 20px;
     text-decoration: none;
 }
+
+.center{
+    text-align: center;
+}
+
