@@ -20,28 +20,31 @@
 </head>
 
 <body>
-    <div id="wrapper">
+    <div itemscope itemtype="https://schema.org/Person" id="wrapper">
         <header>
             <div class="information">
-                <h1>Herman Tatani</h1>
-                <h2>Ingenieur DevOps</h2>
-                <p><i class="fas fa-birthday-cake"></i> &nbsp; Né le 04 mai 2000 <br />
-                    <i class="fas fa-flag"></i> &nbsp; Camerounais<br />
-                    <i class="fas fa-map-marker-alt"></i> &nbsp; 2 rue des Archives <br />
-                    <i class="fas fa-envelope"></i> &nbsp; tatani.herman@gmail.com<br />
-                    <i class="fab fa-linkedin-in"></i> &nbsp; linkedin.com/herman-tatani<br />
-                    <i class="fab fa-github"></i> &nbsp; github.com/Tatani-Herman
+                <h1><span itemprop="name">Herman Tatani</span></h1>
+                <h2><span itemprop="jobTitle">Ingenieur DevOps</span></h2>
+                <p><i class="fas fa-birthday-cake"></i> &nbsp; <span itemprop="birthDate">Né le 04 mai 2000
+                    </span><br />
+                    <i class="fas fa-flag"></i> &nbsp; <span itemprop="nationality">Camerounais</span><br />
+                    <i class="fas fa-map-marker-alt"></i> &nbsp; <span itemprop="address">2 rue des
+                        Archives,Brest</span><br />
+                    <i class="fas fa-envelope"></i> &nbsp; <span itemprop="email">tatani.herman@gmail.com</span><br />
+                    <i class="fab fa-linkedin-in"></i> &nbsp; <span
+                        itemprop="linkedin">linkedin.com/herman-tatani</span><br />
+                    <i class="fab fa-github"></i> &nbsp; <span itemprop="github">github.com/Tatani-Herman</span>
                 </p>
             </div>
             <div class="image">
-                <img src="./photo.jpg" alt="Photo CV Herman" />
+                <img src="./photo.jpg" itemprop="image" alt="Photo CV Herman" />
             </div>
         </header>
 
         <section class="section">
             <!--présentation-->
             <h2>PRESENTATION</h2>
-            <p>
+            <p itemprop="description">
                 Curieux, responsable, autonome, très impliqué, dynamique sont des adjectifs qu’on utilise
                 généralement pour me décrire. Actuellement étudiant en mobilité en master 2 de
                 développement logiciel des systèmes d’information à l’UBO dans le cadre d’une convention de
@@ -55,15 +58,21 @@
             <!-- formations-->
             <h2>FORMATIONS</h2>
             <div class="center">
-                <p><span class="title">Universite de Bretagne Occidentale</span><br />
+                <p><span class="title" itemprop="alumniOf" itemscope
+                        itemtype="http://schema.org/EducationalOrganization">Universite de Bretagne
+                        Occidentale</span><br />
                     Master 2 en developpement logiciel des systemes d'information <br />
                     <span class="date">2021-2022</span>
                 </p>
-                <p><span class="title">Ecole Nationale des Sciences Appliquees de Tanger, Maroc</span><br />
+                <p><span class="title" itemprop="alumniOf" itemscope
+                        itemtype="http://schema.org/EducationalOrganization">Ecole Nationale des Sciences Appliquees de
+                        Tanger, Maroc</span><br />
                     Ingenieur d'Etat en informatique <br />
                     <span class="date">2017-2022</span>
                 </p>
-                <p><span class="title">Lycee Bilingue de Bafoussam, Cameroun</span><br />
+                <p><span class="title" itemprop="alumniOf" itemscope
+                        itemtype="http://schema.org/EducationalOrganization">Lycee Bilingue de Bafoussam,
+                        Cameroun</span><br />
                     Baccalaureat ESG option Mathematiques et Sciences physiques <br />
                     <span class="date">2016-2017</span>
                 </p>
@@ -76,7 +85,8 @@
             <div class="center">
                 <article>
                     <p><span class="title">Stagiaire - Developpeur Fullstack java</span><br />
-                        <b>Interconnect Market - Tanger</b><br />
+                        <b itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">Interconnect Market -
+                            Tanger</b><br />
                         <span class="date">2020-2020</span><br /><span class="time">(3 mois)</span><br />
                         Maintenance de l’application cross-platform d’une entreprise
                         et ajout de nouvelles fonctionnalités. <br />
@@ -85,7 +95,8 @@
                 </article>
                 <article>
                     <p><span class="title">Consultant Power BI freelance</span><br />
-                        <b>Interconnect Market - Tanger</b><br />
+                        <b itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">Interconnect Market -
+                            Tanger</b><br />
                         <span class="date">2020-2021</span><br /><span class="time">(11 mois)</span><br />
                         Extraction, transformation et modélisation des données
                         d’une entreprise belge de façon à obtenir des indicateurs de
@@ -96,7 +107,8 @@
                 </article>
                 <article>
                     <p><span class="title">Stagiaire - Developpeur web</span><br />
-                        <b>YOUPEL - Tanger, Maroc</b><br />
+                        <b itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">YOUPEL - Tanger,
+                            Maroc</b><br />
                         <span class="date">2021-2021</span><br /><span class="time">(3 mois)</span><br />
                         Installation, configuration et customisation du CRM
                         Vtiger ainsi que son portail client sur des serveurs web,
@@ -113,21 +125,21 @@
             <h2>COMPETENCES</h2>
             <dl>
                 <dt>Programmation<span>:</span></dt>
-                <dd>Java, PHP, C, C++, C# .Net</dd>
+                <dd itemprop="knowsAbout">Java, PHP, C, C++, C# .Net</dd>
                 <dt>Developpement Web<span>:</span></dt>
-                <dd>JAVA EE, CSS3, HTML5, Bootstrap, Hibernate,
+                <dd itemprop="knowsAbout">JAVA EE, CSS3, HTML5, Bootstrap, Hibernate,
                     JSF, JSTL, Laravel 5.6, technologies XML</dd>
                 <dt>DevOps<span>:</span></dt>
-                <dd>GIT, GITHUB, Gitlab, Jenkins, Kubernetes, SonarQube, Docker, Script Bash</dd>
+                <dd itemprop="knowsAbout">GIT, GITHUB, Gitlab, Jenkins, Kubernetes, SonarQube, Docker, Script Bash</dd>
                 <dt>Base de données<span>:</span></dt>
-                <dd>MySQL, SQL server, Oracle database 11g/19c</dd>
+                <dd itemprop="knowsAbout">MySQL, SQL server, Oracle database 11g/19c</dd>
             </dl>
         </section>
 
         <section class="section">
             <!-- langues-->
             <h2>LANGUES</h2>
-            <div class="left-side">
+            <div class="left-side" itemprop="knowsLanguage">
                 <p>Francais : <br />
                     Anglais: <br />
                     Espagnol: <br /></p>
@@ -143,25 +155,27 @@
         <section class="section">
             <!-- Hobbies-->
             <h2>HOBBIES</h2>
-            <dl>
+            <dl itemscope itemtype="http://schema.org/ItemList">
                 <dt>Sports<span>:</span></dt>
-                <dd>HandBall, BasketBall, Tenis</dd>
+                <dd itemprop="knowsAbout">HandBall, BasketBall, Tenis</dd>
                 <dt>Jeux<span>:</span></dt>
-                <dd>Echecs, Jeux video, Rubix cube</dd>
+                <dd itemprop="knowsAbout">Echecs, Jeux video, Rubix cube</dd>
                 <dt>Technologies<span>:</span></dt>
-                <dd>Internet Of Thnigs(IOT), Intelligence artificielle</dd>
+                <dd itemprop="knowsAbout">Internet Of Thnigs(IOT), Intelligence artificielle</dd>
             </dl>
         </section>
 
         <footer>
             <p>Merci de bien vouloir me contacter si mon profil vous interesse <br />
-                <a href="https://www.facebook.com/herman.tatan" target="_blanck"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/herman.tatan" itemprop="url" target="_blanck"><i
+                        class="fab fa-facebook"></i></a>
                 &nbsp; &nbsp;
-                <a href="https://www.linkedin.com/in/herman-tatani/" target="_blanck"><i
+                <a href="https://www.linkedin.com/in/herman-tatani/" itemprop="url" target="_blanck"><i
                         class="fab fa-linkedin-in"></i></a> &nbsp; &nbsp;
-                <a href="https://github.com/Tatani-Herman/MonCV" target="_blanck"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/Tatani-Herman/MonCV" itemprop="url" target="_blanck"><i
+                        class="fab fa-github"></i></a>
                 &nbsp; &nbsp;
-                <a href="http://yangsolutions.c1.biz/" target="_blanck"><i class="fas fa-globe"></i></a>
+                <a href="http://yangsolutions.c1.biz/" itemprop="url" target="_blanck"><i class="fas fa-globe"></i></a>
             </p>
 
         </footer>
